@@ -137,8 +137,9 @@ body {
 
 .filter:hover,
 .filter:focus {
-  border-width: 2px;
-  border-color: var(--accent-color);
+  border: none;
+  background: var(--accent-color);
+  color: var(--white-color);
 }
 /* Projects */
 .project-title {
